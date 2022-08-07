@@ -252,7 +252,7 @@ footer {
     #club-ethos { 
         width: 65%;
         height: 1200px;
-        margin: 0auto;
+        margin: 0 auto;
 
     }
 
@@ -261,20 +261,32 @@ footer {
         margin: 0:
     }
 
-    #left-aboout, #right-about { 
+    #left-about, #right-about { 
         width: 100%;
-        float: center;
+        float: left;
         padding: 0;
     }
 
     #center-about { 
         clear: both;
         width: 100%;
-        float: center;
+        float: left;
         padding: 0;
     }
 
     hr { 
         display: none;
+    }
+}
+
+/* For Medium screen sizes from 950px wide and down */ 
+
+@media screen and (max-width: 950px) { 
+    #menu { 
+        clear: left; 
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
